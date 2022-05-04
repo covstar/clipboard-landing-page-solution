@@ -1,0 +1,204 @@
+/* Media Queries for Mobile And Tablet */
+
+/* Mobile Design */
+@media (max-width: 720px){
+    .logo {
+        margin: auto;
+        text-align: center;
+        background-image: url("images/bg-header-mobile.png");
+        background-size: cover;
+    }
+    .first-section, .second-section, .forth-section, .sixth-section, .ninth-section{
+        display: block;
+        padding: 0 1.5rem;
+    }
+
+    /* html elements */
+    h1 {
+        font-size: 2.5rem;
+    }
+    
+    h2 {
+        font-size: 2rem;
+    }
+    
+    h3 {
+        font-size: 1.5rem;
+    }
+    
+    p {
+        font-size: 1.2rem;
+        line-height: 1.7;
+    }
+
+    /* download buttons */
+    .download-buttons button {
+        padding: 1rem 5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    /* Third section */
+    .computer {
+        display: block;
+    }
+    .computer img {
+        margin: auto;
+        width: 100%;
+        padding: 0 1.5rem;
+    }
+    .right-text {
+        padding: 3rem 3rem 0;
+        text-align: center;
+    }
+
+    /* Forth Section / fifth section / sixth section */
+    .forth-section {
+        padding: 6rem 1rem 7rem;
+    }
+    .fifth-section img{
+        width: 100%;
+    }
+    .sixth-section {
+        padding: 3rem 3rem 7rem;
+    }
+    
+    /* Seventh section */
+    
+    .seventh-flex {
+        display: block;
+        padding: 0 3rem 9rem;
+    }
+    
+    .seventh-flex img {
+        padding: 2.6rem 0 2.4rem;
+    }
+    .logos img {
+        padding: 0 4rem 3.5rem;
+    }
+
+    /* ninth-section */
+    .ninth-section{
+        padding: 0 2rem;
+    }
+
+    /* Footer */
+    .footer-logo img {
+        padding: 0 1rem;
+        width: 7rem;
+    }
+    .footer-grid {
+        display: block;
+        text-align: center;
+    }
+    
+    /* Footer links */
+    .links {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(5, 3rem);
+        padding-top: 2.5rem;
+    }
+
+    /* footer Socials icons */
+    .socials {
+        display: flex;
+        padding: 3rem 0 0;
+    }
+    ul {
+        display: flex;
+        margin: auto;
+        justify-content: center;
+    }
+    .socials a{
+        padding: 0 1rem;
+    }
+
+    /*Footer Attribution */
+    .attribution {
+        text-align: center;
+        padding: 4rem 0 0;
+        color: hsl(233, 100%, 69%);
+        font-size: 1rem;
+    }
+}
+
+
+/* Tablet design */
+@media (max-width:1250px) and (min-width:721px){
+
+    /* sections */
+    .first-section, .second-section, .forth-section, .ninth-section{
+        padding: 0 3rem;
+    }
+
+    /* Third section */
+    .computer {
+        display: block;
+        text-align: center;
+    }
+    
+    .computer img {
+        margin: auto;
+        width: 30rem;
+        padding: 0 1.5rem;
+    }
+    
+    .right-text {
+        text-align: center;
+        display: grid;
+        grid-template-columns: 20rem;
+        justify-content: center;
+        padding: 4rem 0 0;
+    }
+    /* Forth Section / fifth section */
+
+    .forth-section {
+        padding: 0rem 1rem 7rem;
+    }
+    .fifth-section img {
+        width: 35rem;
+    }
+
+    /* Seventh section */
+    
+    .seventh-flex {
+        text-align: center;
+        display: flex;
+        flex: 2;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1rem;
+        padding: 0 15rem 9rem;
+    }
+
+    /* eight-section */
+    .logos{
+        text-align: center;
+        display: flex;
+        flex: 3;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    /* Footer */
+    
+    /* footer links */
+    .links {
+        display: flex;
+        flex: 3;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 3rem;
+        font-size: 1rem;
+    }
+
+    /* footer social icons */
+    .socials {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1.1rem;
+        margin-left: auto;
+    }
+   
+}

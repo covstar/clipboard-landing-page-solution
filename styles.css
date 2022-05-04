@@ -1,0 +1,212 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: "Bai Jamjuree";
+}
+
+/* html elements */
+
+h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    color: hsl(210, 10%, 33%);
+    padding: 1rem;
+}
+h2{
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: hsl(210, 10%, 33%);
+    padding: .9rem;
+}
+h3{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: hsl(210, 10%, 33%);
+    padding-bottom: .8rem;
+}
+p {
+    font-size: 1.3rem;
+    color: hsl(201, 11%, 66%);
+    line-height: 1.5;
+}
+
+/* center aligned section */
+.logo, .fifth-section, .seventh-flex, .logos{
+    text-align: center;
+}
+
+
+/* Top header */
+
+.logo{
+    margin: auto;
+    text-align: center;
+    background-image: url("images/bg-header-desktop.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 6rem 0 4rem;
+}
+
+/* First section */
+
+.first-section, .second-section, .forth-section, .sixth-section, .ninth-section {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 49rem;
+    justify-content: center;
+}
+
+/* download buttons */
+
+.download-buttons{
+    padding: 2rem 0 6rem;
+
+}
+
+.download-buttons button{
+    padding: 1rem 2rem;
+    margin-right: .5rem;
+    border-radius: 10rem;
+    font-size: 1.3rem;
+    border: none;
+    cursor: pointer;
+}
+.download-buttons button:hover{
+    transition: .3s;
+    opacity: .7;
+}
+.download-buttons button a{
+    text-decoration: none;
+    color: white;
+}
+.green{
+    background-color: hsl(171, 66%, 44%);
+    box-shadow: 0px 2.5px 3px hsl(171, 62%, 37%);
+}
+.blue {
+    background-color: hsl(233, 100%, 69%);
+    box-shadow: 0px 2.5px 3px hsl(233, 62%, 55%);
+}
+
+/* Third section */
+
+.third-section{
+    padding: 6rem 0 ;
+}
+.computer{
+    display: grid;
+    grid-template-columns: 50rem 24rem;
+    gap: 2.5rem;
+}
+
+.computer img{
+    margin-left: -2rem;
+}
+.right-text{
+    padding-top: 3rem;
+}
+
+.seventh-flex p, .right-text p{
+    font-size: 1.1rem;
+    line-height: 2;
+}
+.text-paragraph{
+    padding-bottom: 2.5rem;
+}
+
+/* Forth Section */
+
+.forth-section{
+    padding: 6rem 6rem 7rem;
+}
+
+/* Sixth section */
+
+.sixth-section{
+    padding: 6rem 6rem 5rem;
+}
+
+/* Seventh section */
+
+.seventh-flex{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+    padding: 0 8rem 9rem;
+}
+
+.seventh-flex img{
+    padding-bottom: 2.4rem;
+}
+
+/* eight-section */
+
+.logos{
+    padding-bottom: 6rem;
+}
+.logos img{
+    padding: 0 4rem 2rem;
+}
+
+/* Footer */
+footer{
+    background-color: hsl(0, 0%, 96%);
+    padding: 3rem 5rem;
+}
+.footer-logo img{
+    width: 12rem;
+    padding: 0 4rem ;
+}
+.footer-grid{
+    display: flex;
+}
+
+/* footer links */
+.links{
+    display: grid;
+    grid-template-columns: repeat(3, 10rem);
+    grid-template-rows: 2.5rem;
+    font-size: 1.2rem;
+}
+.links a{
+    text-decoration: none;
+    color: hsl(210, 10%, 33%);
+    font-weight: 500;
+}
+.links a:hover, .socials a:hover{
+    color: hsl(171, 66%, 44%);
+}
+
+/* footer social icons */
+.socials{
+    display: grid;
+    grid-template-columns: repeat(3, 2rem);
+    gap: 1.1rem;
+    margin-left: auto;
+    padding: 0 4rem;
+}
+ul{
+    list-style: none;
+}
+
+.socials i{
+    font-size: 2rem;
+}
+.socials a{
+    color: hsl(210, 10%, 33%);
+}
+
+/* footer Attribution */
+.attribution{
+    text-align: center;
+    padding: 4rem 0 0;
+    color: hsl(233, 100%, 69%);
+    font-size: 1.2rem;
+}
+.attribution a{
+    text-decoration: none;
+    color: hsl(210, 10%, 33%);
+}
+.attribution a:hover{
+    color: hsl(171, 66%, 44%);
+}
